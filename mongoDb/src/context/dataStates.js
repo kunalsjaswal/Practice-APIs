@@ -77,8 +77,7 @@ const StateStore = (props)=>{
             },
             body: JSON.stringify({name,age,nationality})
         })
-        // const dataJson = await response.json()
-        // setData(data)
+
     }
     return(
         <dataContext.Provider

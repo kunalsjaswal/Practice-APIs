@@ -18,7 +18,7 @@ const AddingData = () => {
     }
 
     const updateHandler=()=>{
-      updateData(currData.id, currData.name,currData.age,currData.nationality)
+       updateData(currData.id, currData.name,currData.age,currData.nationality)
         setEnableButton(true)
         setCurrData({
           id:"",
